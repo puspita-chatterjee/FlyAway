@@ -17,6 +17,11 @@ import javax.servlet.http.HttpSession;
 
 import com.model.Registration;
 
+/**
+ * This Servlet class handles
+ * Flyway User Registration related actions.
+ * and stores in H2 DB.
+ */
 
 @WebServlet("/RegistrationServlet")
 public class FlywayRegistrationServlet extends HttpServlet {

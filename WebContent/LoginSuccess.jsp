@@ -1,3 +1,4 @@
+<!-- This JSP is to render Login Confirmation details -->
 <!DOCTYPE html>
 <html>
 <head>

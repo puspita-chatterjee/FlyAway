@@ -10,6 +10,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+/**
+ * This Servlet class handles
+ * Flyway Login related actions
+ * and stores/validates in H2 DB.
+ */
 
 @WebServlet("/LoginServlet")
 public class FlywayLoginServlet extends HttpServlet {

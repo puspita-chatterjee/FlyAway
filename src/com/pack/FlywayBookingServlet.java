@@ -15,6 +15,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+/**
+ * This Servlet class handles
+ * Flyway booking related actions
+ * and stores in H2 DB.
+ */
 @WebServlet("/BookingServlet")
 public class FlywayBookingServlet  extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) 

@@ -1,3 +1,4 @@
+<!-- This JSP is to render Logout details -->
 <!DOCTYPE html>
 <html>
 <head>
