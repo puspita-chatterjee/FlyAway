@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {text-align: center;}
+button {text-align: centre;}
+body {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190614/ourmid/pngtree-atmospheric-airline-blue-background-material-image_123068.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;
+}
+</style>
+
+<meta charset="UTF-8">
+<title>FlyAway Application</title>
+</head>
+
+<body>
+<p style="font-size:50px;">Welcome to FlyAway</p>
+<br/>
+<p style="font-size:25px;"> Please Register to book you flight!!
+<br/>
+<br/>
+<form name="registerForm">
+	<p>
+		<button style="font-size:25px;" type = 'submit' onclick="document.forms['registerForm'].action = 'Registration.jsp'; return true;" >
+			Register
+		</button>
+	</p>
+</form>
+<br>
+<br>
+<p style="font-size:25px;"> Please Log in if already registered!</p>
+<br/>
+<form name="loginForm">
+	<p>
+		<button style="font-size:25px;" type = 'submit' onclick="document.forms['loginForm'].action = 'Login.html'; return true;">
+			Log in
+		</button>
+	</p>
+</form>
+</html>
